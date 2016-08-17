@@ -7,6 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		881DA8341D36808900BB168D /* WKApiLoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 881DA7F31D36808900BB168D /* WKApiLoginManager.m */; };
+		881DA8391D36808900BB168D /* AIFCommonParamsGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 881DA7FE1D36808900BB168D /* AIFCommonParamsGenerator.m */; };
+		881DA83A1D36808900BB168D /* AIFRequestGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 881DA8001D36808900BB168D /* AIFRequestGenerator.m */; };
+		881DA83B1D36808900BB168D /* AIFSignatureGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 881DA8021D36808900BB168D /* AIFSignatureGenerator.m */; };
+		881DA83D1D36808900BB168D /* RTApiBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 881DA8071D36808900BB168D /* RTApiBaseManager.m */; };
+		881DA83F1D36808900BB168D /* NSDictionary+AIFNetworkingMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 881DA80C1D36808900BB168D /* NSDictionary+AIFNetworkingMethods.m */; };
+		881DA8411D36808900BB168D /* NSObject+AIFNetworkingMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 881DA8101D36808900BB168D /* NSObject+AIFNetworkingMethods.m */; };
+		881DA8431D36808900BB168D /* NSURLRequest+AIFNetworkingMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 881DA8141D36808900BB168D /* NSURLRequest+AIFNetworkingMethods.m */; };
+		881DA8451D36808900BB168D /* AIFApiProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 881DA8191D36808900BB168D /* AIFApiProxy.m */; };
+		881DA8461D36808900BB168D /* AIFURLResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 881DA81B1D36808900BB168D /* AIFURLResponse.m */; };
+		881DA8471D36808900BB168D /* AIFCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 881DA81E1D36808900BB168D /* AIFCache.m */; };
+		881DA8481D36808900BB168D /* AIFCacheObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 881DA8201D36808900BB168D /* AIFCacheObject.m */; };
+		881DA8491D36808900BB168D /* AIFAPPContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 881DA8231D36808900BB168D /* AIFAPPContext.m */; };
+		881DA84C1D36808900BB168D /* AIFService.m in Sources */ = {isa = PBXBuildFile; fileRef = 881DA82B1D36808900BB168D /* AIFService.m */; };
+		881DA84D1D36808900BB168D /* AIFServiceFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 881DA82D1D36808900BB168D /* AIFServiceFactory.m */; };
+		881DA84E1D36808900BB168D /* AIFServiceShark.m in Sources */ = {isa = PBXBuildFile; fileRef = 881DA82F1D36808900BB168D /* AIFServiceShark.m */; };
+		881DA85D1D3775E400BB168D /* ApiFriendsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 881DA85C1D3775E400BB168D /* ApiFriendsManager.m */; };
+		881DA8751D37825800BB168D /* FriendViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 881DA8641D37825800BB168D /* FriendViewCell.m */; };
+		881DA8761D37825800BB168D /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 881DA8661D37825800BB168D /* HomeViewController.m */; };
+		881DA8771D37825800BB168D /* BaseDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 881DA8691D37825800BB168D /* BaseDataController.m */; };
+		881DA8781D37825800BB168D /* HomeDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 881DA86B1D37825800BB168D /* HomeDataController.m */; };
+		881DA8791D37825800BB168D /* LoginDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 881DA86D1D37825800BB168D /* LoginDataController.m */; };
+		881DA87A1D37825800BB168D /* UsersDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 881DA86F1D37825800BB168D /* UsersDataController.m */; };
+		881DA87B1D37825800BB168D /* Friend.m in Sources */ = {isa = PBXBuildFile; fileRef = 881DA8721D37825800BB168D /* Friend.m */; };
+		881DA87E1D37828200BB168D /* FriendsListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 881DA87D1D37828200BB168D /* FriendsListView.m */; };
+		881DA8811D37842F00BB168D /* HomeFriendsViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 881DA8801D37842F00BB168D /* HomeFriendsViewModel.m */; };
+		881DA8841D37900200BB168D /* HomeFriendCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 881DA8831D37900200BB168D /* HomeFriendCellViewModel.m */; };
 		888441A31D3532E800FAFF08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 888441A21D3532E800FAFF08 /* main.m */; };
 		888441A61D3532E800FAFF08 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 888441A51D3532E800FAFF08 /* AppDelegate.m */; };
 		888441A91D3532E800FAFF08 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 888441A81D3532E800FAFF08 /* ViewController.m */; };
@@ -15,6 +42,8 @@
 		888441B11D3532E800FAFF08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 888441AF1D3532E800FAFF08 /* LaunchScreen.storyboard */; };
 		888441BC1D3532E900FAFF08 /* MVC_ReformerModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 888441BB1D3532E900FAFF08 /* MVC_ReformerModelTests.m */; };
 		888441C71D3532E900FAFF08 /* MVC_ReformerModelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 888441C61D3532E900FAFF08 /* MVC_ReformerModelUITests.m */; };
+		889821531D3894140035CA8D /* NSArray+AIFNetworkingMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 889821521D3894140035CA8D /* NSArray+AIFNetworkingMethods.m */; };
+		9E5E07360C23433BD3BC5F50 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 27266179F07BF79549F5CE97 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +64,64 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		27266179F07BF79549F5CE97 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D1D7E4C825457115C127500 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		881DA7E71D36808900BB168D /* AIFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIFNetworking.h; sourceTree = "<group>"; };
+		881DA7E81D36808900BB168D /* AIFNetworkingConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIFNetworkingConfig.h; sourceTree = "<group>"; };
+		881DA7F21D36808900BB168D /* WKApiLoginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKApiLoginManager.h; sourceTree = "<group>"; };
+		881DA7F31D36808900BB168D /* WKApiLoginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKApiLoginManager.m; sourceTree = "<group>"; };
+		881DA7FD1D36808900BB168D /* AIFCommonParamsGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIFCommonParamsGenerator.h; sourceTree = "<group>"; };
+		881DA7FE1D36808900BB168D /* AIFCommonParamsGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIFCommonParamsGenerator.m; sourceTree = "<group>"; };
+		881DA7FF1D36808900BB168D /* AIFRequestGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIFRequestGenerator.h; sourceTree = "<group>"; };
+		881DA8001D36808900BB168D /* AIFRequestGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIFRequestGenerator.m; sourceTree = "<group>"; };
+		881DA8011D36808900BB168D /* AIFSignatureGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIFSignatureGenerator.h; sourceTree = "<group>"; };
+		881DA8021D36808900BB168D /* AIFSignatureGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIFSignatureGenerator.m; sourceTree = "<group>"; };
+		881DA8061D36808900BB168D /* RTApiBaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTApiBaseManager.h; sourceTree = "<group>"; };
+		881DA8071D36808900BB168D /* RTApiBaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTApiBaseManager.m; sourceTree = "<group>"; };
+		881DA80B1D36808900BB168D /* NSDictionary+AIFNetworkingMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+AIFNetworkingMethods.h"; sourceTree = "<group>"; };
+		881DA80C1D36808900BB168D /* NSDictionary+AIFNetworkingMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+AIFNetworkingMethods.m"; sourceTree = "<group>"; };
+		881DA80F1D36808900BB168D /* NSObject+AIFNetworkingMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AIFNetworkingMethods.h"; sourceTree = "<group>"; };
+		881DA8101D36808900BB168D /* NSObject+AIFNetworkingMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AIFNetworkingMethods.m"; sourceTree = "<group>"; };
+		881DA8131D36808900BB168D /* NSURLRequest+AIFNetworkingMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLRequest+AIFNetworkingMethods.h"; sourceTree = "<group>"; };
+		881DA8141D36808900BB168D /* NSURLRequest+AIFNetworkingMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLRequest+AIFNetworkingMethods.m"; sourceTree = "<group>"; };
+		881DA8181D36808900BB168D /* AIFApiProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIFApiProxy.h; sourceTree = "<group>"; };
+		881DA8191D36808900BB168D /* AIFApiProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIFApiProxy.m; sourceTree = "<group>"; };
+		881DA81A1D36808900BB168D /* AIFURLResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIFURLResponse.h; sourceTree = "<group>"; };
+		881DA81B1D36808900BB168D /* AIFURLResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIFURLResponse.m; sourceTree = "<group>"; };
+		881DA81D1D36808900BB168D /* AIFCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIFCache.h; sourceTree = "<group>"; };
+		881DA81E1D36808900BB168D /* AIFCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIFCache.m; sourceTree = "<group>"; };
+		881DA81F1D36808900BB168D /* AIFCacheObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIFCacheObject.h; sourceTree = "<group>"; };
+		881DA8201D36808900BB168D /* AIFCacheObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIFCacheObject.m; sourceTree = "<group>"; };
+		881DA8221D36808900BB168D /* AIFAPPContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIFAPPContext.h; sourceTree = "<group>"; };
+		881DA8231D36808900BB168D /* AIFAPPContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIFAPPContext.m; sourceTree = "<group>"; };
+		881DA82A1D36808900BB168D /* AIFService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIFService.h; sourceTree = "<group>"; };
+		881DA82B1D36808900BB168D /* AIFService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIFService.m; sourceTree = "<group>"; };
+		881DA82C1D36808900BB168D /* AIFServiceFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIFServiceFactory.h; sourceTree = "<group>"; };
+		881DA82D1D36808900BB168D /* AIFServiceFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIFServiceFactory.m; sourceTree = "<group>"; };
+		881DA82E1D36808900BB168D /* AIFServiceShark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIFServiceShark.h; sourceTree = "<group>"; };
+		881DA82F1D36808900BB168D /* AIFServiceShark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIFServiceShark.m; sourceTree = "<group>"; };
+		881DA85B1D3775E400BB168D /* ApiFriendsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiFriendsManager.h; sourceTree = "<group>"; };
+		881DA85C1D3775E400BB168D /* ApiFriendsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiFriendsManager.m; sourceTree = "<group>"; };
+		881DA8631D37825800BB168D /* FriendViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FriendViewCell.h; path = ../Controller/FriendViewCell.h; sourceTree = "<group>"; };
+		881DA8641D37825800BB168D /* FriendViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FriendViewCell.m; path = ../Controller/FriendViewCell.m; sourceTree = "<group>"; };
+		881DA8651D37825800BB168D /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		881DA8661D37825800BB168D /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		881DA8681D37825800BB168D /* BaseDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseDataController.h; sourceTree = "<group>"; };
+		881DA8691D37825800BB168D /* BaseDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseDataController.m; sourceTree = "<group>"; };
+		881DA86A1D37825800BB168D /* HomeDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeDataController.h; sourceTree = "<group>"; };
+		881DA86B1D37825800BB168D /* HomeDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeDataController.m; sourceTree = "<group>"; };
+		881DA86C1D37825800BB168D /* LoginDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginDataController.h; sourceTree = "<group>"; };
+		881DA86D1D37825800BB168D /* LoginDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginDataController.m; sourceTree = "<group>"; };
+		881DA86E1D37825800BB168D /* UsersDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UsersDataController.h; sourceTree = "<group>"; };
+		881DA86F1D37825800BB168D /* UsersDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UsersDataController.m; sourceTree = "<group>"; };
+		881DA8711D37825800BB168D /* Friend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Friend.h; sourceTree = "<group>"; };
+		881DA8721D37825800BB168D /* Friend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Friend.m; sourceTree = "<group>"; };
+		881DA87C1D37828200BB168D /* FriendsListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendsListView.h; sourceTree = "<group>"; };
+		881DA87D1D37828200BB168D /* FriendsListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendsListView.m; sourceTree = "<group>"; };
+		881DA87F1D37842F00BB168D /* HomeFriendsViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeFriendsViewModel.h; sourceTree = "<group>"; };
+		881DA8801D37842F00BB168D /* HomeFriendsViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeFriendsViewModel.m; sourceTree = "<group>"; };
+		881DA8821D37900200BB168D /* HomeFriendCellViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeFriendCellViewModel.h; sourceTree = "<group>"; };
+		881DA8831D37900200BB168D /* HomeFriendCellViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeFriendCellViewModel.m; sourceTree = "<group>"; };
 		8884419E1D3532E800FAFF08 /* MVC-ReformerModel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVC-ReformerModel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		888441A21D3532E800FAFF08 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		888441A41D3532E800FAFF08 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +138,9 @@
 		888441C21D3532E900FAFF08 /* MVC-ReformerModelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVC-ReformerModelUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		888441C61D3532E900FAFF08 /* MVC_ReformerModelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVC_ReformerModelUITests.m; sourceTree = "<group>"; };
 		888441C81D3532E900FAFF08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		889821511D3894140035CA8D /* NSArray+AIFNetworkingMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+AIFNetworkingMethods.h"; sourceTree = "<group>"; };
+		889821521D3894140035CA8D /* NSArray+AIFNetworkingMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+AIFNetworkingMethods.m"; sourceTree = "<group>"; };
+		AA6F920B80CA171BE2765B68 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +148,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E5E07360C23433BD3BC5F50 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +169,191 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		64162B75454D8E984DF6D2CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA6F920B80CA171BE2765B68 /* Pods.debug.xcconfig */,
+				5D1D7E4C825457115C127500 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		881DA7E61D36808900BB168D /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				881DA7E71D36808900BB168D /* AIFNetworking.h */,
+				881DA7E81D36808900BB168D /* AIFNetworkingConfig.h */,
+				881DA7E91D36808900BB168D /* ApiManager */,
+				881DA7FC1D36808900BB168D /* Assistants */,
+				881DA8051D36808900BB168D /* BaseManager */,
+				881DA8081D36808900BB168D /* Category */,
+				881DA8171D36808900BB168D /* SharkApiProxy */,
+				881DA81C1D36808900BB168D /* SharkCache */,
+				881DA8211D36808900BB168D /* SharkContext */,
+				881DA8291D36808900BB168D /* SharkService */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		881DA7E91D36808900BB168D /* ApiManager */ = {
+			isa = PBXGroup;
+			children = (
+				881DA7F21D36808900BB168D /* WKApiLoginManager.h */,
+				881DA7F31D36808900BB168D /* WKApiLoginManager.m */,
+				881DA85B1D3775E400BB168D /* ApiFriendsManager.h */,
+				881DA85C1D3775E400BB168D /* ApiFriendsManager.m */,
+			);
+			path = ApiManager;
+			sourceTree = "<group>";
+		};
+		881DA7FC1D36808900BB168D /* Assistants */ = {
+			isa = PBXGroup;
+			children = (
+				881DA7FD1D36808900BB168D /* AIFCommonParamsGenerator.h */,
+				881DA7FE1D36808900BB168D /* AIFCommonParamsGenerator.m */,
+				881DA7FF1D36808900BB168D /* AIFRequestGenerator.h */,
+				881DA8001D36808900BB168D /* AIFRequestGenerator.m */,
+				881DA8011D36808900BB168D /* AIFSignatureGenerator.h */,
+				881DA8021D36808900BB168D /* AIFSignatureGenerator.m */,
+			);
+			path = Assistants;
+			sourceTree = "<group>";
+		};
+		881DA8051D36808900BB168D /* BaseManager */ = {
+			isa = PBXGroup;
+			children = (
+				881DA8061D36808900BB168D /* RTApiBaseManager.h */,
+				881DA8071D36808900BB168D /* RTApiBaseManager.m */,
+			);
+			path = BaseManager;
+			sourceTree = "<group>";
+		};
+		881DA8081D36808900BB168D /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				889821511D3894140035CA8D /* NSArray+AIFNetworkingMethods.h */,
+				889821521D3894140035CA8D /* NSArray+AIFNetworkingMethods.m */,
+				881DA80B1D36808900BB168D /* NSDictionary+AIFNetworkingMethods.h */,
+				881DA80C1D36808900BB168D /* NSDictionary+AIFNetworkingMethods.m */,
+				881DA80F1D36808900BB168D /* NSObject+AIFNetworkingMethods.h */,
+				881DA8101D36808900BB168D /* NSObject+AIFNetworkingMethods.m */,
+				881DA8131D36808900BB168D /* NSURLRequest+AIFNetworkingMethods.h */,
+				881DA8141D36808900BB168D /* NSURLRequest+AIFNetworkingMethods.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		881DA8171D36808900BB168D /* SharkApiProxy */ = {
+			isa = PBXGroup;
+			children = (
+				881DA8181D36808900BB168D /* AIFApiProxy.h */,
+				881DA8191D36808900BB168D /* AIFApiProxy.m */,
+				881DA81A1D36808900BB168D /* AIFURLResponse.h */,
+				881DA81B1D36808900BB168D /* AIFURLResponse.m */,
+			);
+			path = SharkApiProxy;
+			sourceTree = "<group>";
+		};
+		881DA81C1D36808900BB168D /* SharkCache */ = {
+			isa = PBXGroup;
+			children = (
+				881DA81D1D36808900BB168D /* AIFCache.h */,
+				881DA81E1D36808900BB168D /* AIFCache.m */,
+				881DA81F1D36808900BB168D /* AIFCacheObject.h */,
+				881DA8201D36808900BB168D /* AIFCacheObject.m */,
+			);
+			path = SharkCache;
+			sourceTree = "<group>";
+		};
+		881DA8211D36808900BB168D /* SharkContext */ = {
+			isa = PBXGroup;
+			children = (
+				881DA8221D36808900BB168D /* AIFAPPContext.h */,
+				881DA8231D36808900BB168D /* AIFAPPContext.m */,
+			);
+			path = SharkContext;
+			sourceTree = "<group>";
+		};
+		881DA8291D36808900BB168D /* SharkService */ = {
+			isa = PBXGroup;
+			children = (
+				881DA82A1D36808900BB168D /* AIFService.h */,
+				881DA82B1D36808900BB168D /* AIFService.m */,
+				881DA82C1D36808900BB168D /* AIFServiceFactory.h */,
+				881DA82D1D36808900BB168D /* AIFServiceFactory.m */,
+				881DA82E1D36808900BB168D /* AIFServiceShark.h */,
+				881DA82F1D36808900BB168D /* AIFServiceShark.m */,
+			);
+			path = SharkService;
+			sourceTree = "<group>";
+		};
+		881DA8611D37825800BB168D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				881DA8621D37825800BB168D /* Controller */,
+				881DA8671D37825800BB168D /* DataController */,
+				881DA8701D37825800BB168D /* Model */,
+				881DA8731D37825800BB168D /* ReformerModel */,
+				881DA8741D37825800BB168D /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		881DA8621D37825800BB168D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				881DA8651D37825800BB168D /* HomeViewController.h */,
+				881DA8661D37825800BB168D /* HomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		881DA8671D37825800BB168D /* DataController */ = {
+			isa = PBXGroup;
+			children = (
+				881DA8681D37825800BB168D /* BaseDataController.h */,
+				881DA8691D37825800BB168D /* BaseDataController.m */,
+				881DA86A1D37825800BB168D /* HomeDataController.h */,
+				881DA86B1D37825800BB168D /* HomeDataController.m */,
+				881DA86C1D37825800BB168D /* LoginDataController.h */,
+				881DA86D1D37825800BB168D /* LoginDataController.m */,
+				881DA86E1D37825800BB168D /* UsersDataController.h */,
+				881DA86F1D37825800BB168D /* UsersDataController.m */,
+			);
+			path = DataController;
+			sourceTree = "<group>";
+		};
+		881DA8701D37825800BB168D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				881DA8711D37825800BB168D /* Friend.h */,
+				881DA8721D37825800BB168D /* Friend.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		881DA8731D37825800BB168D /* ReformerModel */ = {
+			isa = PBXGroup;
+			children = (
+				881DA87F1D37842F00BB168D /* HomeFriendsViewModel.h */,
+				881DA8801D37842F00BB168D /* HomeFriendsViewModel.m */,
+				881DA8821D37900200BB168D /* HomeFriendCellViewModel.h */,
+				881DA8831D37900200BB168D /* HomeFriendCellViewModel.m */,
+			);
+			path = ReformerModel;
+			sourceTree = "<group>";
+		};
+		881DA8741D37825800BB168D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				881DA8631D37825800BB168D /* FriendViewCell.h */,
+				881DA8641D37825800BB168D /* FriendViewCell.m */,
+				881DA87C1D37828200BB168D /* FriendsListView.h */,
+				881DA87D1D37828200BB168D /* FriendsListView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		888441951D3532E800FAFF08 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +361,8 @@
 				888441BA1D3532E900FAFF08 /* MVC-ReformerModelTests */,
 				888441C51D3532E900FAFF08 /* MVC-ReformerModelUITests */,
 				8884419F1D3532E800FAFF08 /* Products */,
+				64162B75454D8E984DF6D2CA /* Pods */,
+				EA79EDBF4B495A5DFB1C2EC5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +379,8 @@
 		888441A01D3532E800FAFF08 /* MVC-ReformerModel */ = {
 			isa = PBXGroup;
 			children = (
+				881DA8611D37825800BB168D /* Home */,
+				881DA7E61D36808900BB168D /* Network */,
 				888441A41D3532E800FAFF08 /* AppDelegate.h */,
 				888441A51D3532E800FAFF08 /* AppDelegate.m */,
 				888441A71D3532E800FAFF08 /* ViewController.h */,
@@ -109,6 +389,7 @@
 				888441AD1D3532E800FAFF08 /* Assets.xcassets */,
 				888441AF1D3532E800FAFF08 /* LaunchScreen.storyboard */,
 				888441B21D3532E800FAFF08 /* Info.plist */,
+				88FDCA061D3D149B005B18C7 /* New Group */,
 				888441A11D3532E800FAFF08 /* Supporting Files */,
 			);
 			path = "MVC-ReformerModel";
@@ -140,6 +421,21 @@
 			path = "MVC-ReformerModelUITests";
 			sourceTree = "<group>";
 		};
+		88FDCA061D3D149B005B18C7 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+		EA79EDBF4B495A5DFB1C2EC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27266179F07BF79549F5CE97 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +443,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 888441CB1D3532E900FAFF08 /* Build configuration list for PBXNativeTarget "MVC-ReformerModel" */;
 			buildPhases = (
+				69926DBED03C801166A8742D /* Check Pods Manifest.lock */,
 				8884419A1D3532E800FAFF08 /* Sources */,
 				8884419B1D3532E800FAFF08 /* Frameworks */,
 				8884419C1D3532E800FAFF08 /* Resources */,
+				564FF75D8DE140871D2B3C8A /* Embed Pods Frameworks */,
+				76CB4E790D54166570318295 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,14 +564,90 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		564FF75D8DE140871D2B3C8A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69926DBED03C801166A8742D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		76CB4E790D54166570318295 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8884419A1D3532E800FAFF08 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				881DA83A1D36808900BB168D /* AIFRequestGenerator.m in Sources */,
+				881DA8471D36808900BB168D /* AIFCache.m in Sources */,
+				889821531D3894140035CA8D /* NSArray+AIFNetworkingMethods.m in Sources */,
+				881DA8771D37825800BB168D /* BaseDataController.m in Sources */,
+				881DA8491D36808900BB168D /* AIFAPPContext.m in Sources */,
 				888441A91D3532E800FAFF08 /* ViewController.m in Sources */,
 				888441A61D3532E800FAFF08 /* AppDelegate.m in Sources */,
+				881DA84E1D36808900BB168D /* AIFServiceShark.m in Sources */,
+				881DA8791D37825800BB168D /* LoginDataController.m in Sources */,
+				881DA8761D37825800BB168D /* HomeViewController.m in Sources */,
+				881DA8751D37825800BB168D /* FriendViewCell.m in Sources */,
+				881DA8841D37900200BB168D /* HomeFriendCellViewModel.m in Sources */,
+				881DA8411D36808900BB168D /* NSObject+AIFNetworkingMethods.m in Sources */,
+				881DA8461D36808900BB168D /* AIFURLResponse.m in Sources */,
+				881DA84D1D36808900BB168D /* AIFServiceFactory.m in Sources */,
 				888441A31D3532E800FAFF08 /* main.m in Sources */,
+				881DA8431D36808900BB168D /* NSURLRequest+AIFNetworkingMethods.m in Sources */,
+				881DA85D1D3775E400BB168D /* ApiFriendsManager.m in Sources */,
+				881DA83F1D36808900BB168D /* NSDictionary+AIFNetworkingMethods.m in Sources */,
+				881DA87E1D37828200BB168D /* FriendsListView.m in Sources */,
+				881DA84C1D36808900BB168D /* AIFService.m in Sources */,
+				881DA8781D37825800BB168D /* HomeDataController.m in Sources */,
+				881DA87A1D37825800BB168D /* UsersDataController.m in Sources */,
+				881DA83B1D36808900BB168D /* AIFSignatureGenerator.m in Sources */,
+				881DA8451D36808900BB168D /* AIFApiProxy.m in Sources */,
+				881DA8481D36808900BB168D /* AIFCacheObject.m in Sources */,
+				881DA8811D37842F00BB168D /* HomeFriendsViewModel.m in Sources */,
+				881DA87B1D37825800BB168D /* Friend.m in Sources */,
+				881DA8341D36808900BB168D /* WKApiLoginManager.m in Sources */,
+				881DA83D1D36808900BB168D /* RTApiBaseManager.m in Sources */,
+				881DA8391D36808900BB168D /* AIFCommonParamsGenerator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +786,7 @@
 		};
 		888441CC1D3532E900FAFF08 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA6F920B80CA171BE2765B68 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "MVC-ReformerModel/Info.plist";
@@ -422,6 +798,7 @@
 		};
 		888441CD1D3532E900FAFF08 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D1D7E4C825457115C127500 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "MVC-ReformerModel/Info.plist";
@@ -498,6 +875,7 @@
 				888441CD1D3532E900FAFF08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		888441CE1D3532E900FAFF08 /* Build configuration list for PBXNativeTarget "MVC-ReformerModelTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +884,7 @@
 				888441D01D3532E900FAFF08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		888441D11D3532E900FAFF08 /* Build configuration list for PBXNativeTarget "MVC-ReformerModelUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +893,7 @@
 				888441D31D3532E900FAFF08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
