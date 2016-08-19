@@ -6,8 +6,8 @@
 //  Copyright © 2016年 liuweiqing. All rights reserved.
 //
 
-#import "BaseDataController.h"
+#import "BaseDataSource.h"
 
-@implementation BaseDataController
+@implementation BaseDataSource
 
 @end

@@ -8,13 +8,13 @@
 
 #import "ViewController.h"
 #import "HomeViewController.h"
-#import "LoginDataController.h"
+#import "LoginDataSource.h"
 #import <CommonCrypto/CommonDigest.h>
 
 @interface ViewController ()
 
 @property (nonatomic, strong) UIButton *gotoHomeButton;
-@property (nonatomic, strong) LoginDataController  *loginDataController;
+@property (nonatomic, strong) LoginDataSource  *loginDataSource;
 
 @end
 
@@ -42,7 +42,7 @@
 #pragma mark --event response
 - (void)buttonClick
 {
-    [self.loginDataController requestToLoginWithParams:@{@"mobile":@"13111111111",@"password":[self md5:@"123456"]} callBack:^(NSError * _Nullable error, NSDictionary * _Nullable errorMessage, RTAPIManagerErrorType errorType) {
+    [self.loginDataSource requestToLoginWithParams:@{@"mobile":@"13111111111",@"password":[self md5:@"123456"]} callBack:^(NSError * _Nullable error, NSDictionary * _Nullable errorMessage, RTAPIManagerErrorType errorType) {
         if (error == nil) {
                 UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:[[HomeViewController alloc] init]];
                 [self presentViewController:nav animated:YES completion:nil];
@@ -67,12 +67,12 @@
     return _gotoHomeButton;
 }
 
-- (LoginDataController *)loginDataController
+- (LoginDataSource *)loginDataSource
 {
-    if (_loginDataController == nil) {
-        _loginDataController = [[LoginDataController alloc] init];
+    if (_loginDataSource == nil) {
+        _loginDataSource = [[LoginDataSource alloc] init];
     }
-    return _loginDataController;
+    return _loginDataSource;
 }
 
 - (NSString *)md5:(NSString *)password

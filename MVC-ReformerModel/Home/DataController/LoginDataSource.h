@@ -6,9 +6,9 @@
 //  Copyright © 2016年 liuweiqing. All rights reserved.
 //
 
-#import "BaseDataController.h"
+#import "BaseDataSource.h"
 
-@interface LoginDataController : BaseDataController
+@interface LoginDataSource : BaseDataSource
 
 - (void)requestToLoginWithParams:(NSDictionary *)params callBack:(CompletionCallback)callBack;
 

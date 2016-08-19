@@ -26,10 +26,10 @@
 		881DA85D1D3775E400BB168D /* ApiFriendsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 881DA85C1D3775E400BB168D /* ApiFriendsManager.m */; };
 		881DA8751D37825800BB168D /* FriendViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 881DA8641D37825800BB168D /* FriendViewCell.m */; };
 		881DA8761D37825800BB168D /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 881DA8661D37825800BB168D /* HomeViewController.m */; };
-		881DA8771D37825800BB168D /* BaseDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 881DA8691D37825800BB168D /* BaseDataController.m */; };
-		881DA8781D37825800BB168D /* HomeDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 881DA86B1D37825800BB168D /* HomeDataController.m */; };
-		881DA8791D37825800BB168D /* LoginDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 881DA86D1D37825800BB168D /* LoginDataController.m */; };
-		881DA87A1D37825800BB168D /* UsersDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 881DA86F1D37825800BB168D /* UsersDataController.m */; };
+		881DA8771D37825800BB168D /* BaseDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 881DA8691D37825800BB168D /* BaseDataSource.m */; };
+		881DA8781D37825800BB168D /* HomeDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 881DA86B1D37825800BB168D /* HomeDataSource.m */; };
+		881DA8791D37825800BB168D /* LoginDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 881DA86D1D37825800BB168D /* LoginDataSource.m */; };
+		881DA87A1D37825800BB168D /* UsersDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 881DA86F1D37825800BB168D /* UsersDataSource.m */; };
 		881DA87B1D37825800BB168D /* Friend.m in Sources */ = {isa = PBXBuildFile; fileRef = 881DA8721D37825800BB168D /* Friend.m */; };
 		881DA87E1D37828200BB168D /* FriendsListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 881DA87D1D37828200BB168D /* FriendsListView.m */; };
 		881DA8811D37842F00BB168D /* HomeFriendsViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 881DA8801D37842F00BB168D /* HomeFriendsViewModel.m */; };
@@ -106,14 +106,14 @@
 		881DA8641D37825800BB168D /* FriendViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FriendViewCell.m; path = ../Controller/FriendViewCell.m; sourceTree = "<group>"; };
 		881DA8651D37825800BB168D /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		881DA8661D37825800BB168D /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
-		881DA8681D37825800BB168D /* BaseDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseDataController.h; sourceTree = "<group>"; };
-		881DA8691D37825800BB168D /* BaseDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseDataController.m; sourceTree = "<group>"; };
-		881DA86A1D37825800BB168D /* HomeDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeDataController.h; sourceTree = "<group>"; };
-		881DA86B1D37825800BB168D /* HomeDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeDataController.m; sourceTree = "<group>"; };
-		881DA86C1D37825800BB168D /* LoginDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginDataController.h; sourceTree = "<group>"; };
-		881DA86D1D37825800BB168D /* LoginDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginDataController.m; sourceTree = "<group>"; };
-		881DA86E1D37825800BB168D /* UsersDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UsersDataController.h; sourceTree = "<group>"; };
-		881DA86F1D37825800BB168D /* UsersDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UsersDataController.m; sourceTree = "<group>"; };
+		881DA8681D37825800BB168D /* BaseDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseDataSource.h; sourceTree = "<group>"; };
+		881DA8691D37825800BB168D /* BaseDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseDataSource.m; sourceTree = "<group>"; };
+		881DA86A1D37825800BB168D /* HomeDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeDataSource.h; sourceTree = "<group>"; };
+		881DA86B1D37825800BB168D /* HomeDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeDataSource.m; sourceTree = "<group>"; };
+		881DA86C1D37825800BB168D /* LoginDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginDataSource.h; sourceTree = "<group>"; };
+		881DA86D1D37825800BB168D /* LoginDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginDataSource.m; sourceTree = "<group>"; };
+		881DA86E1D37825800BB168D /* UsersDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UsersDataSource.h; sourceTree = "<group>"; };
+		881DA86F1D37825800BB168D /* UsersDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UsersDataSource.m; sourceTree = "<group>"; };
 		881DA8711D37825800BB168D /* Friend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Friend.h; sourceTree = "<group>"; };
 		881DA8721D37825800BB168D /* Friend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Friend.m; sourceTree = "<group>"; };
 		881DA87C1D37828200BB168D /* FriendsListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendsListView.h; sourceTree = "<group>"; };
@@ -295,7 +295,7 @@
 			isa = PBXGroup;
 			children = (
 				881DA8621D37825800BB168D /* Controller */,
-				881DA8671D37825800BB168D /* DataController */,
+				881DA8671D37825800BB168D /* DataSource */,
 				881DA8701D37825800BB168D /* Model */,
 				881DA8731D37825800BB168D /* ReformerModel */,
 				881DA8741D37825800BB168D /* View */,
@@ -312,18 +312,19 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		881DA8671D37825800BB168D /* DataController */ = {
+		881DA8671D37825800BB168D /* DataSource */ = {
 			isa = PBXGroup;
 			children = (
-				881DA8681D37825800BB168D /* BaseDataController.h */,
-				881DA8691D37825800BB168D /* BaseDataController.m */,
-				881DA86A1D37825800BB168D /* HomeDataController.h */,
-				881DA86B1D37825800BB168D /* HomeDataController.m */,
-				881DA86C1D37825800BB168D /* LoginDataController.h */,
-				881DA86D1D37825800BB168D /* LoginDataController.m */,
-				881DA86E1D37825800BB168D /* UsersDataController.h */,
-				881DA86F1D37825800BB168D /* UsersDataController.m */,
+				881DA8681D37825800BB168D /* BaseDataSource.h */,
+				881DA8691D37825800BB168D /* BaseDataSource.m */,
+				881DA86A1D37825800BB168D /* HomeDataSource.h */,
+				881DA86B1D37825800BB168D /* HomeDataSource.m */,
+				881DA86C1D37825800BB168D /* LoginDataSource.h */,
+				881DA86D1D37825800BB168D /* LoginDataSource.m */,
+				881DA86E1D37825800BB168D /* UsersDataSource.h */,
+				881DA86F1D37825800BB168D /* UsersDataSource.m */,
 			);
+			name = DataSource;
 			path = DataController;
 			sourceTree = "<group>";
 		};
@@ -627,12 +628,12 @@
 				881DA83A1D36808900BB168D /* AIFRequestGenerator.m in Sources */,
 				881DA8471D36808900BB168D /* AIFCache.m in Sources */,
 				889821531D3894140035CA8D /* NSArray+AIFNetworkingMethods.m in Sources */,
-				881DA8771D37825800BB168D /* BaseDataController.m in Sources */,
+				881DA8771D37825800BB168D /* BaseDataSource.m in Sources */,
 				881DA8491D36808900BB168D /* AIFAPPContext.m in Sources */,
 				888441A91D3532E800FAFF08 /* ViewController.m in Sources */,
 				888441A61D3532E800FAFF08 /* AppDelegate.m in Sources */,
 				881DA84E1D36808900BB168D /* AIFServiceShark.m in Sources */,
-				881DA8791D37825800BB168D /* LoginDataController.m in Sources */,
+				881DA8791D37825800BB168D /* LoginDataSource.m in Sources */,
 				881DA8761D37825800BB168D /* HomeViewController.m in Sources */,
 				881DA8751D37825800BB168D /* FriendViewCell.m in Sources */,
 				881DA8841D37900200BB168D /* HomeFriendCellViewModel.m in Sources */,
@@ -645,8 +646,8 @@
 				881DA83F1D36808900BB168D /* NSDictionary+AIFNetworkingMethods.m in Sources */,
 				881DA87E1D37828200BB168D /* FriendsListView.m in Sources */,
 				881DA84C1D36808900BB168D /* AIFService.m in Sources */,
-				881DA8781D37825800BB168D /* HomeDataController.m in Sources */,
-				881DA87A1D37825800BB168D /* UsersDataController.m in Sources */,
+				881DA8781D37825800BB168D /* HomeDataSource.m in Sources */,
+				881DA87A1D37825800BB168D /* UsersDataSource.m in Sources */,
 				881DA83B1D36808900BB168D /* AIFSignatureGenerator.m in Sources */,
 				881DA8451D36808900BB168D /* AIFApiProxy.m in Sources */,
 				881DA8481D36808900BB168D /* AIFCacheObject.m in Sources */,

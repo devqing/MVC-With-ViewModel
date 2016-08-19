@@ -6,10 +6,10 @@
 //  Copyright © 2016年 liuweiqing. All rights reserved.
 //
 
-#import "BaseDataController.h"
+#import "BaseDataSource.h"
 #import "Friend.h"
 
-@interface UsersDataController : BaseDataController
+@interface UsersDataSource : BaseDataSource
 
 @property (nonatomic, strong) NSArray<Friend *> *friends;
 

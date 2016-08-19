@@ -10,6 +10,6 @@
 
 typedef void (^CompletionCallback)( NSError * _Nullable error ,NSDictionary * _Nullable errorMessage,RTAPIManagerErrorType errorType);
 typedef void (^DataCallback)( NSError * _Nullable error ,NSDictionary * _Nullable errorMessage,RTAPIManagerErrorType errorType);
-@interface BaseDataController : NSObject
+@interface BaseDataSource : NSObject
 
 @end

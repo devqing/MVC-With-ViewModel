@@ -6,11 +6,11 @@
 //  Copyright © 2016年 liuweiqing. All rights reserved.
 //
 
-#import "UsersDataController.h"
+#import "UsersDataSource.h"
 #import "ApiFriendsManager.h"
 #import <UIImageView+WebCache.h>
 
-@interface UsersDataController()<RTAPIManagerApiCallBackDelegate,RTAPIManagerParamSourceDelegate>
+@interface UsersDataSource()<RTAPIManagerApiCallBackDelegate,RTAPIManagerParamSourceDelegate>
 
 @property (nonatomic, strong) ApiFriendsManager *apiManager;
 @property (nonatomic, copy)   DataCallback dataCallBack;
@@ -18,7 +18,7 @@
 
 @end
 
-@implementation UsersDataController
+@implementation UsersDataSource
 
 
 #pragma mark --public method

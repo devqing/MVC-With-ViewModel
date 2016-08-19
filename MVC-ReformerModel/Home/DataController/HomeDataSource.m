@@ -6,35 +6,35 @@
 //  Copyright © 2016年 liuweiqing. All rights reserved.
 //
 
-#import "HomeDataController.h"
-#import "UsersDataController.h"
+#import "HomeDataSource.h"
+#import "UsersDataSource.h"
 
-@interface HomeDataController()
+@interface HomeDataSource()
 
-@property (nonatomic, strong) UsersDataController *dataController;
+@property (nonatomic, strong) UsersDataSource *dataSource;
 
 @end
 
-@implementation HomeDataController
+@implementation HomeDataSource
 
 - (void)requestUsersDataWithParams:(NSDictionary *)params callBack:(CompletionCallback)callBack
 {
-    [self.dataController requestAllUsersWithParams:params callBack:callBack];
+    [self.dataSource requestAllUsersWithParams:params callBack:callBack];
 }
 
 #pragma mark --getter&setter
-- (UsersDataController *)dataController
+- (UsersDataSource *)dataSource
 {
-    if (_dataController == nil) {
-        _dataController = [[UsersDataController alloc] init];
+    if (_dataSource == nil) {
+        _dataSource = [[UsersDataSource alloc] init];
     
     }
-    return _dataController;
+    return _dataSource;
 }
 
 - (NSArray<Friend *> *)friendsArray
 {
-    return self.dataController.friends.count>0?self.dataController.friends:@[];
+    return self.dataSource.friends.count>0?self.dataSource.friends:@[];
 }
 
 @end

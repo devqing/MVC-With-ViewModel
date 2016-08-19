@@ -7,12 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "BaseDataController.h"
+#import "BaseDataSource.h"
 #import "Friend.h"
 
 typedef void(^callBack)(NSError *error);
 
-@interface HomeDataController : BaseDataController
+@interface HomeDataSource : BaseDataSource
 
 @property (nonatomic, strong) NSArray<Friend *> *friendsArray;
 

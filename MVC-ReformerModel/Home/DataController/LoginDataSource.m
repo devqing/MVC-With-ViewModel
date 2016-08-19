@@ -6,10 +6,10 @@
 //  Copyright © 2016年 liuweiqing. All rights reserved.
 //
 
-#import "LoginDataController.h"
+#import "LoginDataSource.h"
 #import "WKApiLoginManager.h"
 
-@interface LoginDataController()<RTAPIManagerApiCallBackDelegate,RTAPIManagerParamSourceDelegate>
+@interface LoginDataSource()<RTAPIManagerApiCallBackDelegate,RTAPIManagerParamSourceDelegate>
 
 @property (nonatomic, strong) WKApiLoginManager *apiManager;
 @property (nonatomic, copy) CompletionCallback callBack;
@@ -17,7 +17,7 @@
 
 @end
 
-@implementation LoginDataController
+@implementation LoginDataSource
 
 - (void)requestToLoginWithParams:(NSDictionary *)params callBack:(CompletionCallback)callBack
 {
