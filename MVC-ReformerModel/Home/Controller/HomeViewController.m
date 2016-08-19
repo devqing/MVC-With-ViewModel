@@ -2,7 +2,7 @@
 //  HomeViewController.m
 //  MVC-ReformerModel
 //
-//  Created by liuweiqing on 16/7/13.
+//  Created by liuweiqing on 16/8/17.
 //  Copyright © 2016年 liuweiqing. All rights reserved.
 //
 
@@ -10,9 +10,6 @@
 #import "HomeDataController.h"
 #import "FriendsListView.h"
 #import "HomeFriendsViewModel.h"
-
-#define WIDTH [UIScreen mainScreen].bounds.size.width
-#define HEIGHT [UIScreen mainScreen].bounds.size.height
 
 @interface HomeViewController ()
 
@@ -29,14 +26,12 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     [self.view addSubview:self.friendView];
-    
     [self requestData];
 }
 
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
-    
 }
 
 - (void)viewDidAppear:(BOOL)animated
@@ -45,6 +40,7 @@
     [self layoutSubviews];
 }
 
+
 - (void)requestData
 {
     [self.dataController requestUsersDataWithParams:@{@"uid":@"5719d5916703c02377506e72"} callBack:^(NSError * _Nullable error, NSDictionary * _Nullable errorMessage, RTAPIManagerErrorType errorType) {
@@ -52,15 +48,17 @@
             [self.friendView configWithViewModel:[HomeFriendsViewModel viewModelWithFriends:self.dataController.friendsArray]];
         }else
         {
-            
+            // 请求错误  错误处理
         }
     }];
 }
 
+#pragma mark --private method
 - (void)layoutSubviews
 {
     self.friendView.frame = self.view.bounds;
 }
+
 
 #pragma mark --getter&setter
 - (FriendsListView *)friendView
@@ -70,6 +68,7 @@
     }
     return _friendView;
 }
+
 
 - (HomeDataController *)dataController
 {

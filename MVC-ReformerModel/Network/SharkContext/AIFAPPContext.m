@@ -16,17 +16,6 @@
 
 @implementation AIFAPPContext
 
-#pragma mark - getters and setters
-
-
-- (BOOL)isReachable
-{
-    if ([AFNetworkReachabilityManager sharedManager].networkReachabilityStatus == AFNetworkReachabilityStatusUnknown) {
-        return YES;
-    } else {
-        return [[AFNetworkReachabilityManager sharedManager] isReachable];
-    }
-}
 
 #pragma mark - public methods
 + (instancetype)sharedInstance
@@ -40,6 +29,17 @@
     return sharedInstance;
 }
 
+
+
+#pragma mark - getters and setters
+- (BOOL)isReachable
+{
+    if ([AFNetworkReachabilityManager sharedManager].networkReachabilityStatus == AFNetworkReachabilityStatusUnknown) {
+        return YES;
+    } else {
+        return [[AFNetworkReachabilityManager sharedManager] isReachable];
+    }
+}
 
 
 @end

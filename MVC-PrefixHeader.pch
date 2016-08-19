@@ -1,14 +1,18 @@
 //
-//  Networking.h
-//  customer-ios
+//  PrefixHeader.pch
+//  MVC-ReformerModel
 //
-//  Created by liuweiqing on 15/12/4.
-//  Copyright (c) 2015年 Leoc O'Cear. All rights reserved.
+//  Created by liuweiqing－letv on 16/8/18.
+//  Copyright © 2016年 liuweiqing. All rights reserved.
 //
 
-#ifndef customer_ios_AIFNetworking_h
-#define customer_ios_AIFNetworking_h
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
 
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#endif
 
 typedef NS_ENUM (NSUInteger, RTAPIManagerErrorType){
     RTAPIManagerErrorTypeDefault,       //没有产生过API请求，这个是manager的默认状态。
@@ -19,5 +23,7 @@ typedef NS_ENUM (NSUInteger, RTAPIManagerErrorType){
     RTAPIManagerErrorTypeNoNetWork      //网络不通。在调用API之前会判断一下当前网络是否通畅，这个也是在调用API之前验证的，和上面超时的状态是有区别的。
 };
 
+#define WIDTH [UIScreen mainScreen].bounds.size.width
+#define HEIGHT [UIScreen mainScreen].bounds.size.height
 
-#endif
+#endif /* PrefixHeader_pch */

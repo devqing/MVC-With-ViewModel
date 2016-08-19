@@ -1,4 +1,6 @@
 platform :ios, '8.0'
+target 'MVC-ReformerModel' do
 pod 'AFNetworking', '~> 2.6.3'
 pod 'HandyFrame'
 pod 'SDWebImage', '~> 3.7.5'
+end

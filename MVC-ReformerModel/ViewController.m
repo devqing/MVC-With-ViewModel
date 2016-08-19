@@ -25,7 +25,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [self.view addSubview:self.gotoHomeButton];
+//    [self.view addSubview:self.gotoHomeButton];
+    
+    UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"Image"]];
+    
+    [self.view addSubview:imageView];
 }
 
 - (void)viewWillAppear:(BOOL)animated

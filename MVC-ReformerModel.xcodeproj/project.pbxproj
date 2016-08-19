@@ -43,7 +43,7 @@
 		888441BC1D3532E900FAFF08 /* MVC_ReformerModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 888441BB1D3532E900FAFF08 /* MVC_ReformerModelTests.m */; };
 		888441C71D3532E900FAFF08 /* MVC_ReformerModelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 888441C61D3532E900FAFF08 /* MVC_ReformerModelUITests.m */; };
 		889821531D3894140035CA8D /* NSArray+AIFNetworkingMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 889821521D3894140035CA8D /* NSArray+AIFNetworkingMethods.m */; };
-		9E5E07360C23433BD3BC5F50 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 27266179F07BF79549F5CE97 /* libPods.a */; };
+		D2996813007C1948632BACFA /* libPods-MVC-ReformerModel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B2BB0BBECA9EACC37C78BB59 /* libPods-MVC-ReformerModel.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,8 +65,8 @@
 
 /* Begin PBXFileReference section */
 		27266179F07BF79549F5CE97 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5281ED5A1D655EAD0041A270 /* MVC-PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "MVC-PrefixHeader.pch"; path = "../MVC-PrefixHeader.pch"; sourceTree = "<group>"; };
 		5D1D7E4C825457115C127500 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		881DA7E71D36808900BB168D /* AIFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIFNetworking.h; sourceTree = "<group>"; };
 		881DA7E81D36808900BB168D /* AIFNetworkingConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIFNetworkingConfig.h; sourceTree = "<group>"; };
 		881DA7F21D36808900BB168D /* WKApiLoginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKApiLoginManager.h; sourceTree = "<group>"; };
 		881DA7F31D36808900BB168D /* WKApiLoginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKApiLoginManager.m; sourceTree = "<group>"; };
@@ -141,6 +141,9 @@
 		889821511D3894140035CA8D /* NSArray+AIFNetworkingMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+AIFNetworkingMethods.h"; sourceTree = "<group>"; };
 		889821521D3894140035CA8D /* NSArray+AIFNetworkingMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+AIFNetworkingMethods.m"; sourceTree = "<group>"; };
 		AA6F920B80CA171BE2765B68 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		B2BB0BBECA9EACC37C78BB59 /* libPods-MVC-ReformerModel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MVC-ReformerModel.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B82F3BABC8C0474108A13656 /* Pods-MVC-ReformerModel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVC-ReformerModel.release.xcconfig"; path = "Pods/Target Support Files/Pods-MVC-ReformerModel/Pods-MVC-ReformerModel.release.xcconfig"; sourceTree = "<group>"; };
+		C7B29CC1554D5DF330835302 /* Pods-MVC-ReformerModel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVC-ReformerModel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MVC-ReformerModel/Pods-MVC-ReformerModel.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,7 +151,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E5E07360C23433BD3BC5F50 /* libPods.a in Frameworks */,
+				D2996813007C1948632BACFA /* libPods-MVC-ReformerModel.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,6 +177,8 @@
 			children = (
 				AA6F920B80CA171BE2765B68 /* Pods.debug.xcconfig */,
 				5D1D7E4C825457115C127500 /* Pods.release.xcconfig */,
+				C7B29CC1554D5DF330835302 /* Pods-MVC-ReformerModel.debug.xcconfig */,
+				B82F3BABC8C0474108A13656 /* Pods-MVC-ReformerModel.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -181,7 +186,6 @@
 		881DA7E61D36808900BB168D /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				881DA7E71D36808900BB168D /* AIFNetworking.h */,
 				881DA7E81D36808900BB168D /* AIFNetworkingConfig.h */,
 				881DA7E91D36808900BB168D /* ApiManager */,
 				881DA7FC1D36808900BB168D /* Assistants */,
@@ -388,6 +392,7 @@
 				888441AA1D3532E800FAFF08 /* Main.storyboard */,
 				888441AD1D3532E800FAFF08 /* Assets.xcassets */,
 				888441AF1D3532E800FAFF08 /* LaunchScreen.storyboard */,
+				5281ED5A1D655EAD0041A270 /* MVC-PrefixHeader.pch */,
 				888441B21D3532E800FAFF08 /* Info.plist */,
 				88FDCA061D3D149B005B18C7 /* New Group */,
 				888441A11D3532E800FAFF08 /* Supporting Files */,
@@ -432,6 +437,7 @@
 			isa = PBXGroup;
 			children = (
 				27266179F07BF79549F5CE97 /* libPods.a */,
+				B2BB0BBECA9EACC37C78BB59 /* libPods-MVC-ReformerModel.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -443,12 +449,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 888441CB1D3532E900FAFF08 /* Build configuration list for PBXNativeTarget "MVC-ReformerModel" */;
 			buildPhases = (
-				69926DBED03C801166A8742D /* Check Pods Manifest.lock */,
+				69926DBED03C801166A8742D /* [CP] Check Pods Manifest.lock */,
 				8884419A1D3532E800FAFF08 /* Sources */,
 				8884419B1D3532E800FAFF08 /* Frameworks */,
 				8884419C1D3532E800FAFF08 /* Resources */,
-				564FF75D8DE140871D2B3C8A /* Embed Pods Frameworks */,
-				76CB4E790D54166570318295 /* Copy Pods Resources */,
+				564FF75D8DE140871D2B3C8A /* [CP] Embed Pods Frameworks */,
+				76CB4E790D54166570318295 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -506,6 +512,7 @@
 				TargetAttributes = {
 					8884419D1D3532E800FAFF08 = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 26J67QGDKL;
 					};
 					888441B61D3532E900FAFF08 = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -565,29 +572,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		564FF75D8DE140871D2B3C8A /* Embed Pods Frameworks */ = {
+		564FF75D8DE140871D2B3C8A /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVC-ReformerModel/Pods-MVC-ReformerModel-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		69926DBED03C801166A8742D /* Check Pods Manifest.lock */ = {
+		69926DBED03C801166A8742D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -595,19 +602,19 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		76CB4E790D54166570318295 /* Copy Pods Resources */ = {
+		76CB4E790D54166570318295 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVC-ReformerModel/Pods-MVC-ReformerModel-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -786,10 +793,13 @@
 		};
 		888441CC1D3532E900FAFF08 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AA6F920B80CA171BE2765B68 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = C7B29CC1554D5DF330835302 /* Pods-MVC-ReformerModel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MVC-PrefixHeader.pch";
 				INFOPLIST_FILE = "MVC-ReformerModel/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "lwq.MVC-ReformerModel";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -798,10 +808,13 @@
 		};
 		888441CD1D3532E900FAFF08 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5D1D7E4C825457115C127500 /* Pods.release.xcconfig */;
+			baseConfigurationReference = B82F3BABC8C0474108A13656 /* Pods-MVC-ReformerModel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MVC-PrefixHeader.pch";
 				INFOPLIST_FILE = "MVC-ReformerModel/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "lwq.MVC-ReformerModel";
 				PRODUCT_NAME = "$(TARGET_NAME)";

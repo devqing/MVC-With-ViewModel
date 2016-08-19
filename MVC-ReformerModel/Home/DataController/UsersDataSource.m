@@ -2,7 +2,7 @@
 //  UsersDataController.m
 //  MVC-ReformerModel
 //
-//  Created by liuweiqing on 16/7/14.
+//  Created by liuweiqing on 16/8/17.
 //  Copyright © 2016年 liuweiqing. All rights reserved.
 //
 
@@ -13,12 +13,15 @@
 @interface UsersDataController()<RTAPIManagerApiCallBackDelegate,RTAPIManagerParamSourceDelegate>
 
 @property (nonatomic, strong) ApiFriendsManager *apiManager;
-@property (nonatomic, copy) DataCallback dataCallBack;
+@property (nonatomic, copy)   DataCallback dataCallBack;
 @property (nonatomic, strong) NSDictionary *params;
 
 @end
 
 @implementation UsersDataController
+
+
+#pragma mark --public method
 
 - (void)requestAllUsersWithParams:(NSDictionary *)params callBack:(DataCallback)dataCallBack
 {
@@ -46,6 +49,7 @@
     self.dataCallBack(nil,nil,RTAPIManagerErrorTypeDefault);
 }
 
+
 #pragma mark --RTAPIManagerParamSourceDelegate
 
 - (NSDictionary *)paramsForApi:(RTApiBaseManager *)manager
@@ -53,7 +57,9 @@
     return self.params;
 }
 
+
 #pragma mark --getter&setter
+
 - (ApiFriendsManager *)apiManager
 {
     if (_apiManager == nil) {

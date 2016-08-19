@@ -7,7 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "AIFNetworking.h"
 #import "AIFNetworkingConfig.h"
 
 @interface AIFURLResponse : NSObject
